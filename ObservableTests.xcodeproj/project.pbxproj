@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		753EE8932AB07AE1002C6D0C /* ObservableTestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753EE8922AB07AE1002C6D0C /* ObservableTestsApp.swift */; };
-		753EE8952AB07AE1002C6D0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753EE8942AB07AE1002C6D0C /* ContentView.swift */; };
 		753EE8972AB07AE2002C6D0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 753EE8962AB07AE2002C6D0C /* Assets.xcassets */; };
 		753EE89A2AB07AE2002C6D0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 753EE8992AB07AE2002C6D0C /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +15,6 @@
 /* Begin PBXFileReference section */
 		753EE88F2AB07AE1002C6D0C /* ObservableTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObservableTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		753EE8922AB07AE1002C6D0C /* ObservableTestsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableTestsApp.swift; sourceTree = "<group>"; };
-		753EE8942AB07AE1002C6D0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		753EE8962AB07AE2002C6D0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		753EE8992AB07AE2002C6D0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		753EE89B2AB07AE2002C6D0C /* ObservableTests.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ObservableTests.entitlements; sourceTree = "<group>"; };
@@ -53,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				753EE8922AB07AE1002C6D0C /* ObservableTestsApp.swift */,
-				753EE8942AB07AE1002C6D0C /* ContentView.swift */,
 				753EE8962AB07AE2002C6D0C /* Assets.xcassets */,
 				753EE89B2AB07AE2002C6D0C /* ObservableTests.entitlements */,
 				753EE8982AB07AE2002C6D0C /* Preview Content */,
@@ -139,7 +136,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				753EE8952AB07AE1002C6D0C /* ContentView.swift in Sources */,
 				753EE8932AB07AE1002C6D0C /* ObservableTestsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
