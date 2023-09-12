@@ -15,16 +15,19 @@ struct ObservableTestsApp: App {
     
     var body: some Scene {
         WindowGroup {
-            HStack(spacing: 100) {
-                VStack {
-                    Text("ObservableObject")
-                    ObservableObjectAgePicker(user: observableObjectUser)
-                    ObservableObjectStreetPicker(user: observableObjectUser)
-                }
-                VStack {
-                    Text("New @Observable")
-                    ObservableAgePicker(user: observableUser)
-                    ObservableStreetPicker(user: observableUser)
+            VStack(spacing: 40) {
+                Text("Compare the debugger log output when editing Age using the different methods")
+                HStack(spacing: 100) {
+                    VStack {
+                        Text("ObservableObject")
+                        ObservableObjectAgePicker(user: observableObjectUser)
+                        ObservableObjectStreetPicker(user: observableObjectUser)
+                    }
+                    VStack {
+                        Text("New @Observable")
+                        ObservableAgePicker(user: observableUser)
+                        ObservableStreetPicker(user: observableUser)
+                    }
                 }
             }
             .padding(30)
